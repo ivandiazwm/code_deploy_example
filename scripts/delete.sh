@@ -1,4 +1,4 @@
-if [ -d /home/bitnami/htdocs ]; then
-    rm -rf /home/bitnami/htdocs
+if [ -d /var/www/html ]; then
+    rm -rf /var/www/html
 fi
-mkdir -vp /home/bitnami/htdocs
+mkdir -vp /var/www/html
