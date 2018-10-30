@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /home/bitnami/htdocs
+     destination: /var/www/htdocs
 permissions:
-   - object: /home/bitnami/htdocs
+   - object: /var/www/htdocs
      pattern: "**"
      owner: bitnami
      group: bitnami
